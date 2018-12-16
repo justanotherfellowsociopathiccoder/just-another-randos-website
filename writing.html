@@ -4,33 +4,69 @@
     h1 { font-family:Txuleta-Deco }
    @font-face{ font-family: Equality; src: url("Equality.ttf");}
     h2 { font-family:Equality }
-  
-    a:link {
-    color: seagreen;
-}
-a:visited {
-    color: lime;
-}
-a:hover {
-    color: cyan;
-}
-a:active {
-    color: greenyellow;
-}
   </style>
-  
- 
-  
-  
-  <h2><font size="7" color="purple">Hi, as you know... my name is sammy but what you don't know is...</font></h2> 
+<head>
+    <h2><font size="7" color="purple">Hi, as you know... my name is sammy but what you don't know is...</font></h2> 
   
   <h1><font color="darkorange">I'm a writer and a poet and this is where I show it! </font></h1>
 <p>Want to see a few things I wrote?</p>
-<p>
-<a href="documentes/greenwashing.pdf" target="_blank">Greenwashing</a>
-<br>
-<a href="documentes/MoralEquilibruim.pdf" target="_blank">Moral Equilibruim</a>
-<br>
-<a href="documentes/Witchcraft.pdf" target="_blank">Colonial Witchcraft</a>
-</p>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="Screenshot 2018-12-16 at 2.11.44 PM.png" alt="Colonial Witchcraft:behind the scenes" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>was it All hysteria</h3>
+          <p><a href="documentes/Witchcraft.pdf" target="_blank">Colonial Witchcraft</a></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="Screenshot 2018-12-16 at 2.11.44 PM.png" alt="Green as Gray can be..." style="width:100%;">
+        <div class="carousel-caption">
+          <h3>We are green, on the surface</h3>
+          <p><a href="documentes/greenwashing.pdf" target="_blank">Greenwashing</a></p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="Screenshot 2018-12-16 at 2.12.41 PM.png" alt="Excuses to yourself-Plausible" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Excuses, Excuses</h3>
+          <p><a href="documentes/MoralEquilibruim.pdf" target="_blank">Moral Equilibruim</a></p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+</body>
 </html>
