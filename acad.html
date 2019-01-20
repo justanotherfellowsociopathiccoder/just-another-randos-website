@@ -15,13 +15,62 @@ p.outset {border-style: outset;}
 p.none {border-style: none;}
 p.hidden {border-style: hidden;}
 p.mix {border-style: dotted dashed solid double;}
-
-
 </style>
 
-
-
-
-
-<h1>CAIS<h1>
-<p class="double"><img src="Screenshot 2018-12-02 at 12.10.59 PM.png">  </p>
+<body>
+ <div id="wrapper">          
+  <div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+                     <a href="#">LIFE</a>
+      </li>
+      
+      <barline>
+      <li>
+                     <a href="acad.html">Academics</a>
+      </li>
+      <li>
+                     <a href="sports.html">Sports</a>
+      </li>
+      <li>
+                     <a href="music.html">Music</a>
+      </li>
+      <li>
+                     <a href="art.html">Art</a>
+      </li>
+      <li>
+                     <a href="theater.html">Theater</a>
+      </li>
+      <li>
+                     <a href="travel.html">Travel</a>
+      </li>
+      <li>
+                     <a href="writing.html">Writing</a>
+      </li>
+      <li>         
+                     <a href="blog.html">Blog</a>
+      </li>
+      <li>
+                     <button type="button" onclick="alert('foleysammy910@gmail.com')">Contact Me!</button>
+      </li>
+      </barline>
+     </ul>
+    </div>
+           
+    <!-- /#wrapper -->
+    <!-- Bootstrap core JavaScript -->
+           
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Menu Toggle Script -->
+    <script>        
+        $("#menu-toggle").click(function(e) { e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+                                            });
+    </script>
+           
+           
+    <h1>CAIS<h1>
+        <p class="double"><img src="Screenshot 2018-12-02 at 12.10.59 PM.png">  </p>
+    </body>
