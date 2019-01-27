@@ -121,8 +121,27 @@
                <div class="w3-container w3-black">
                 <h1>Writing</h1>
                 <span class="btn btn-secondary"> <a href="#menu-toggle" id="menu-toggle">View Contents</a></span>
-               </div>
-          <div class="container">
+          </div>
+
+        </div>
+    </div>
+           
+
+    <!-- /#wrapper -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+     </script>
+    
+    
+    
+              <div class="container">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -170,21 +189,7 @@
     </a>
   </div>
 </div>
-
-        </div>
-    </div>
-           
-
-    <!-- /#wrapper -->
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-     </script>
+    
+    
 </body>
 </html>
