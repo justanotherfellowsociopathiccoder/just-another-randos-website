@@ -15,7 +15,13 @@
 
     <!-- Custom styles for this template -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
-
+<title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 </head>
   <style>
    @font-face{ font-family: TallFilm; src: url("fonts/Tall Film.ttf");}
@@ -63,7 +69,7 @@
     width: 1300px;
     color: black;   
    }
-   /* .carousel-inner img {
+   .carousel-inner img {
     width: 1300px;
     height: 1300px;
     padding-left: 35px;  
@@ -137,6 +143,42 @@
         $("#wrapper").toggleClass("toggled");
     });
     </script>
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Screenshot 2018-12-14 at 10.45.26 AM.png" alt="meep">
+      <div class="carousel-caption">
+        <h3>Welcome, Ye who enter here,</h3>
+        <p>I am a bookworm, a writer, a coder, a dreamer, a fighter, and so like everyone else I have a heart,</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="Screenshot 2018-12-06 at 10.14.53 PM.png" alt="hello">
+      <div class="carousel-caption">
+        <h3>a Nook in the Cosmos</h3>
+        <p>That I call home</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="Screenshot 2019-01-23 at 6.56.00 PM.png" alt="HI">
+      <div class="carousel-caption">
+        <h3>Just keep doing you,</h3>
+        <p>I don't know who I plan to be, so I just keep doing me!</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
 
 </body>
 
