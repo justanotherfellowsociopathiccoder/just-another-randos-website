@@ -1,4 +1,53 @@
-<!DOCTYPE html>
+<style>
+   @font-face{ font-family: TallFilm; src: url("fonts/Tall Film.ttf");}
+   @font-face{ font-family: Txuleta-Deco; src: url("fonts/Txuleta-Deco.ttf");}
+   @font-face{ font-family: Equality; src: url("fonts/Equality.ttf");}
+   @font-face{ font-family: AL; src: url("fonts/Autumn Leaves.ttf	");}
+   @font-face{ font-family: DDemo; src: url("Denka Demo.ttf");}
+   @font-face{ font-family: Jammy; src: url("fonts/Jammycreamer.ttf");}
+   @font-face{ font-family: atten; src: url("Attentica 4F UltraLight.ttf");}
+    
+   h1 { 
+    font-family:DDemo;
+   }
+   barline {
+    font-family:atten;
+    color:white;
+    }
+   }
+   span.btn btn-secondary {
+    display: inline;
+    display: block;
+    font-family:atten;
+   }
+   p {
+    text-size: 15;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    font-family:atten;
+    background-color: #34090C;
+    border-radius: 25px; 
+    padding:20px;      
+   }
+   h3 {
+    font-family:atten
+    color=white   
+   }
+   title {
+    font-family:atten
+   }
+   div {
+    height: 110px;
+    width: 500%;
+   }
+   @font-face{ font-family: Txuleta-Deco; src: url("fonts/Txuleta-Deco.ttf");}
+   @font-face{ font-family: Equality; src: url("fonts/Equality.ttf");}
+   @font-face{ font-family: AL; src: url("fonts/Autumn Leaves.ttf	");}
+   @font-face{ font-family: DDemo; src: url("fonts/Denka Demo.ttf");}
+   @font-face{ font-family: Jammy; src: url("fonts/Jammycreamer.ttf");}
+</style>
 
 <head>
   <meta charset="utf-8">
@@ -7,15 +56,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
-  <title>Carousel Example</title>
+  <title>Theater</title>
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="css/simple-sidebar.css" rel="stylesheet">
-  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script></head>
+</head>
 
 <body>
   <div id="wrapper">
@@ -53,7 +100,18 @@
     </div>
     
         <!-- /#sidebar-wrapper -->
-  
+
+        <!-- Page Content -->
+    <div>
+        <div id="page-content-wrapper">
+               <div class="w3-container w3-black">
+                <h1>Travel</h1>
+                <span class="btn btn-secondary"> <a href="#menu-toggle" id="menu-toggle">View Contents</a></span>
+                </div>
+        </div>
+    </div>
+           
+
     <!-- /#wrapper -->
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -64,8 +122,5 @@
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
-     </script>  
-  
-</body>
-
-</html>
+     </script>
+    </body>
